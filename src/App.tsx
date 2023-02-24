@@ -36,9 +36,10 @@ export function App() {
                 <td> {/*
                   // @ts-ignore */}
                   Nome Repositório:{repo.name} </td>
-                <td {/*
+                <td>
+                  {/*
                   // @ts-ignore */}
-                >URL: {repo.url}</td>
+                  URL: {repo.url}</td>
                 <Dialog.Root>
 
                   <Dialog.Trigger asChild>
