@@ -33,8 +33,12 @@ export function App() {
             {repositories?.map(repo => (
               <tr>
 
-                <td>Nome Repositório:{repo.name} </td>
-                <td>URL: {repo.url}</td>
+                <td> {/*
+                  // @ts-ignore */}
+                  Nome Repositório:{repo.name} </td>
+                <td {/*
+                  // @ts-ignore */}
+                >URL: {repo.url}</td>
                 <Dialog.Root>
 
                   <Dialog.Trigger asChild>
